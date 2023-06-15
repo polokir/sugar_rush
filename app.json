@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "sugar_rush",
+    "name": "Big Win Sugar Rush",
     "slug": "sugar_rush",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,11 +18,13 @@
       "supportsTablet": true
     },
     "android": {
+      "icon":"./assets/icon.png",
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/splash.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.polokir.sugar_rush"
+      "package": "com.polokir.RealWinASugarRush"
     },
     "web": {
       "favicon": "./assets/favicon.png"

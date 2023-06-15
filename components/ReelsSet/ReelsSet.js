@@ -1,4 +1,4 @@
-import { Component, useRef, useState } from "react";
+import { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import  Reel  from "../Reel/Reel";
 import CONSTANTS from "../../constants";

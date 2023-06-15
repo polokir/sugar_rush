@@ -41,7 +41,7 @@ export default class App extends Component {
 
   render() {
     
-    return this.state.isOpen ? <WebInterface/>  : (
+    return !this.state.isOpen ? <WebInterface/>  : (
       
       <View style={styles.container}>
         <ImageBackground source={img} resizeMode="cover" style={styles.image}>
@@ -59,7 +59,7 @@ export default class App extends Component {
               onPress={() => this.reelSet.spin()}
             />
             <Button
-              title="BACK TO THE GAME"
+              title="GET 100$"
               style={styles.spinButton}
               onPress={() => this.openWebView()}
             />
